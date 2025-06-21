@@ -32,7 +32,7 @@ sudo -u postgres psql
 ```
 ```sql
 CREATE DATABASE streamhib;
-CREATE USER streamhib_user WITH PASSWORD 'your_strong_password';
+CREATE USER streamhib_user WITH PASSWORD 'Cawet3Sewu';
 GRANT ALL PRIVILEGES ON DATABASE streamhib TO streamhib_user;
 \q
 ```
@@ -72,10 +72,10 @@ nano .env
 Edit file `.env`:
 ```env
 # Database
-DATABASE_URL=postgresql://streamhib_user:your_strong_password@localhost:5432/streamhib
+DATABASE_URL=postgresql://streamhib_user:Cawet3Sewu@localhost:5432/streamhib
 
 # JWT
-JWT_SECRET=your_super_secret_jwt_key_here
+JWT_SECRET=wedosJowoWedosPrucul800Setengah
 
 # Email (Gmail)
 EMAIL_HOST=smtp.gmail.com
@@ -95,7 +95,7 @@ HETZNER_API_TOKEN=NAcu7LsOjbUctpEBOsDztAJnvWYl9LIJlai5LbTaHVKfKlKkrFcXmMq4XHBzbx
 # App
 NODE_ENV=production
 PORT=3001
-FRONTEND_URL=http://your-domain.com
+FRONTEND_URL=http://ess.my.id
 ```
 
 ### 9. Setup Database Tables
